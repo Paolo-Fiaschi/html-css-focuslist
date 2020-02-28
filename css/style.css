@@ -191,11 +191,14 @@ footer ul li{
 
   .h3-left{
     color: #274DAF;
-    margin: 22px 35% auto;
+    margin: 22px 27% auto;
+    font-size: 23px;
   }
   .h3-right{
     color: #274DAF;
-    margin: 22px 35% auto;
+    margin: 22px 27% auto;
+    font-size: 23px;
+
   }
   .p-left,
   .p-right{
