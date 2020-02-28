@@ -124,7 +124,8 @@ background-color: #2A4B77;
   margin: 0 4% 40px;
   letter-spacing: 2px;
 }
-.focus img{
+.list-work,
+.break{
   width: 70%;
   margin-bottom: 20px;
 }
@@ -163,6 +164,12 @@ footer ul li{
 
 @media screen and (max-width:768px) {
 
+  p{
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+  /* header ---------------------------------------*/
   .container-img img{
     width: 50%;
     height: auto;
@@ -198,6 +205,41 @@ footer ul li{
     padding-bottom: 40px;
     margin: 0 80px;
   }
+  /* secondo blocco focus ------------------------*/
+  .focus h2{
+    margin: 0 20%;
+  }
+  .p-2row{
+    color: #6989B7;
+    letter-spacing: 2px;
+    margin: 0 20%;
+    padding-bottom: 40px;
+    font-size: 19px;
+  }
+  .list-work{
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .break{
+    width: 40%;
+  }
+  .focus-p-central{
+    font-size: 19px;
+  }
+  /* terzo blocco track */
+  .calendar1{
+    margin-left: 30%;
+    padding-bottom: 80px;
+    margin: 0 3%;
+  }
+  .calendar2{
+    margin-right: 30%;
+    padding-bottom: 80px;
+    margin: 0 3%;
+  }
+  .track p{
+    font-size: 19px;
+  }
 
 }
 
@@ -229,6 +271,41 @@ footer ul li{
     text-align: left;
     letter-spacing: 2px;
     margin: 0 20px;
+  }
+  /* secondo blocco focus -------------------*/
+  .focus h3{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    font-weight: lighter;
+  }
+  .p-2row{
+    color: #6989B7;
+    margin: 0 4% 40px;
+    letter-spacing: 2px;
+  }
+  .list-work{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .break{
+    width: 25%;
+  }
+  .p-2row-md{
+    margin: 0 20%;
+    padding-bottom: 40px;
+  }
+  /* terzo blocco track */
+  .calendar1{
+    margin-left: 30%;
+    padding-bottom: 80px;
+    margin: 0 3%;
+  }
+  .calendar2{
+    margin-right: 30%;
+    padding-bottom: 80px;
+    margin: 0 3%;
   }
 
 }
