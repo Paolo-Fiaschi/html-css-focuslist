@@ -41,7 +41,7 @@ header{
   position: relative;
 }
 .container-img img{
-  width: 100%;
+  width: 90%;
   height: auto;
   transform: translateY(86px);
 }
@@ -140,14 +140,103 @@ background-color: #2A4B77;
 }
 
 /* footer ------------------------------------*/
-footer [class*="col-"]{
+footer{
   background-color: #113462;
+  padding: 3% 0;
 }
 
 footer h6{
   color: #7393c1;
+  font-size: 15px;
+  padding: 20px 2px;
+  margin-left: 50px;
 }
-
+footer ul{
+  margin-left: 50px;
+}
 footer ul li{
   color: white;
+  padding: 3px 0;
+}
+
+/* versione mobile xs */
+
+@media screen and (max-width:768px) {
+
+  .container-img img{
+    width: 50%;
+    height: auto;
+    transform: translateY(80px);
+  }
+  .titoli h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size:40px;
+    font-weight: lighter;
+  }
+  .titoli p{
+    color:#7393c1;
+    padding: 20px 0;
+    letter-spacing: 4px;
+    font-size: 19px;
+  }
+  /* primo blocco plan ------------------------------*/
+
+  .h3-left{
+    color: #274DAF;
+    margin: 22px 35% auto;
+  }
+  .h3-right{
+    color: #274DAF;
+    margin: 22px 35% auto;
+  }
+  .p-left,
+  .p-right{
+    color: #9BA6B7;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 40px;
+    margin: 0 80px;
+  }
+
+}
+
+/* versione tablet md */
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+  .h3-left{
+    color: #274DAF;
+    padding-bottom: 20px;
+    margin-top: 107px;
+    text-align: left;
+    margin: 107px 0 0 20px;
+  }
+  .h3-right{
+    color: #274DAF;
+    padding-bottom: 20px;
+    margin: 150px 20px 0 0;
+    text-align: right;
+  }
+  .p-right{
+    color: #9BA6B7;
+    text-align: right;
+    letter-spacing: 2px;
+    margin: 0 20px;
+  }
+  .p-left{
+    color: #9BA6B7;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0 20px;
+  }
+
+}
+
+/* versione dekstop lg */
+
+@media screen and (min-width:993px){
+
+
+
 }
