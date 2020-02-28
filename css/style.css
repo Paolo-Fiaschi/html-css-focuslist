@@ -13,22 +13,25 @@
 /* header -------------------------------*/
 header{
   background: linear-gradient(30deg, #225393, #002351);
-  /* border: solid 1px #000; */
   padding: 60px 0;
 }
 /* left -----------------------*/
+.logo{
+  margin-top: 100px;
+}
 .titoli{
   padding: 20px 30px;
 }
 .titoli h2{
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-size: 35px;
   font-weight: lighter;
 }
 .titoli p{
   color:#7393c1;
   padding: 20px 0;
+  letter-spacing: 2px;
 }
 .immaginine{
   padding: 0 20px;
@@ -38,32 +41,105 @@ header{
   position: relative;
 }
 .container-img img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 332px;
+  width: 100%;
   height: auto;
+  transform: translateY(86px);
 }
-/* main ----------------------------------*/
+/* main -------------------------------------------------*/
+/* primo blocco plan ------------------------------*/
 
-section{
-  margin-bottom: 15px;
+.planning,
+.track{
   background: #F6F7F8;
 }
-.planning h2{
-  padding: 60px 0px 20px;
-  letter-spacing: 1px;
+/* prima row centrale ------*/
+.planning h2,
+.track h2{
+  padding: 80px 0px 20px;
+  letter-spacing: 2px;
   font-size: 35px;
   font-weight: lighter;
 }
-.planning p{
+.planning-p-central,
+.track p{
   color: #9BA6B7;
   margin: 0 23% 40px;
+  letter-spacing: 2px;
 }
-section img{
-  display: none;
+/* seconda row -------------*/
+.h3-left{
+  color: #274DAF;
+  padding-bottom: 20px;
+  margin-top: 107px;
+  text-align: right;
+}
+.h3-right{
+  color: #274DAF;
+  padding-bottom: 20px;
+  margin-top: 150px;
+  text-align: left;
+}
+.p-left{
+  color: #9BA6B7;
+  text-align: right;
+  letter-spacing: 2px;
+}
+.p-right{
+  color: #9BA6B7;
+  text-align: left;
+  letter-spacing: 2px;
 }
 
+section img{
+  width: 320px;
+  height: auto;
+}
+/* secondo blocco focus ------------------------------*/
+/* prima row ---------------------------*/
+.focus{
+background-color: #2A4B77;
+}
+.focus h2{
+  padding: 80px 0px 20px;
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-weight: lighter;
+  color: white;
+}
+.focus-p-central{
+  color: #6989B7;
+  margin: 0 26% 50px;
+  letter-spacing: 2px;
+}
+/* seconda row -------------------*/
+.focus h3{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  font-weight: lighter;
+}
+.p-2row{
+  color: #6989B7;
+  margin: 0 4% 40px;
+  letter-spacing: 2px;
+}
+.focus img{
+  width: 70%;
+  margin-bottom: 20px;
+}
+/* terzo blocco track -------------------------*/
+.calendar1{
+  margin-left: 30%;
+  padding-bottom: 80px;
+}
+.calendar2{
+  margin-right: 30%;
+  padding-bottom: 80px;
+
+}
+
+/* footer ------------------------------------*/
 footer [class*="col-"]{
   background-color: #113462;
 }
