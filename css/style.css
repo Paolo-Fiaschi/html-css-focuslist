@@ -33,6 +33,31 @@ header{
   padding: 20px 0;
   letter-spacing: 2px;
 }
+.immaginine span{
+  color:#7393c1;
+  width: 29%;
+  display: inline-block;
+  padding-left: 3%;
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 19px;
+  vertical-align: middle;
+}
+.immaginine a,
+.immaginine a:link,
+.immaginine a:visited{
+  color: #7393c1;
+}
+.iphone{
+  width: 8%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.mac{
+  width: 16%;
+  margin-left: 10px;
+  vertical-align: middle;
+}
 .immaginine{
   padding: 0 20px;
 }
@@ -158,6 +183,7 @@ footer ul{
 footer ul li{
   color: white;
   padding: 3px 0;
+  cursor: pointer;
 }
 
 /* versione mobile xs */
